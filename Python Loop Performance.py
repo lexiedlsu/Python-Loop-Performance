@@ -25,10 +25,10 @@ for n in call_values:
     for_loop_total = for_loop_function(n)
     time_end = time.time()
     print(f"\nFor Loop: {for_loop_total}")
-    print(f"    Execution Time: {time_end - time_start:.6f}s")
+    print(f"    Execution Time: {time_end - time_start:.10f}s")
 
     time_start = time.time()
     while_loop_total = while_loop_function(n)
     time_end = time.time()
     print(f"While Loop: {while_loop_total}")
-    print(f"    Execution Time: {time_end - time_start:.6f}s")
+    print(f"    Execution Time: {time_end - time_start:.10f}s")
